@@ -2,21 +2,27 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height: 300px;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: whitesmoke;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title {
+  color: blue;
 }
 
-.App-link {
-  color: #09d3ac;
+.description {
+  margin: 0 15px 0 15px;
+}
+
+.movie-image {
+  margin: 10px;
+  max-width: 150px;
+  max-height: 80px;
 }
